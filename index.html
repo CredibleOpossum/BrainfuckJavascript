@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <title>BF interpreter!</title>
+    </head>
+    <body>
+        <div style="font-family: 'Courier New';" id="mem"></div>
+        <br />
+        <div style="font-family: 'Courier New';" id="pointer"></div>
+        <textarea id="code" rows="1" cols="80">Please load a program!</textarea><br />
+        <textarea id="program" rows="8" cols="80">Code is placed here!</textarea><br />
+        <textarea id="output" rows="2" cols="80">Output comes here!</textarea><br />
+        <button type="button" onclick="loadCode()">Load Code</button><button type="button" onclick="runCode()">Run code</button><button type="button" onclick="stepCode()">Step code</button><br />
+    </body>
+</html>
+<script src="scripts/BFLogic.js"></script>
+<script src="scripts/Main.js"></script>
